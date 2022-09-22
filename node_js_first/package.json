@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "0.0.1",
+  "description": "first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hello": "it is my first script",
+    "start": "./index.js",
+    "begin": "./start.sh",
+    "dev": "nodemon./index.js"
+  },
+  "author": "Liza",
+  "license": "ISC",
+  "dependencies": {
+    "ladash": "^1.2.0",
+    "postman": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
